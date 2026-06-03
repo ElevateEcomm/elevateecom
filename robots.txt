@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elevateecomm.github.io/elevateecom/sitemap.xml
