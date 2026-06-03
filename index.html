@@ -1,1 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ElevateEcom | E-Commerce Growth Agency</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0b12;
+color:#fff;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(10,10,20,.85);
+backdrop-filter:blur(10px);
+z-index:1000;
+border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#8b5cf6;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+color:#fff;
+text-decoration:none;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#8b5cf6;
+}
+
+.hero{
+padding:170px 0 100px;
+text-align:center;
+background:
+radial-gradient(circle at top right,#8b5cf644,transparent 30%),
+radial-gradient(circle at bottom left,#2563eb33,transparent 30%);
+}
+
+.hero h1{
+font-size:55px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero span{
+color:#8b5cf6;
+}
+
+.hero p{
+max-width:750px;
+margin:auto;
+opacity:.85;
+font-size:18px;
+}
+
+.buttons{
+margin-top:35px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:14px 26px;
+border:none;
+border-radius:10px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.primary{
+background:#8b5cf6;
+color:#fff;
+}
+
+.primary:hover{
+transform:translateY(-3px);
+}
+
+.secondary{
+background:transparent;
+border:1px solid #8b5cf6;
+color:#fff;
+}
+
+.secondary:hover{
+background:#8b5cf6;
+}
+
+section{
+padding:90px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:38px;
+margin-bottom:50px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+padding:30px;
+border-radius:18px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:#8b5cf6;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#8b5cf6;
+}
+
+.about{
+text-align:center;
+max-width:850px;
+margin:auto;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.stat{
+background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+.stat h2{
+color:#8b5cf6;
+font-size:42px;
+}
+
+.contact-box{
+max-width:700px;
+margin:auto;
+text-align:center;
+background:rgba(255,255,255,.05);
+padding:40px;
+border-radius:20px;
+}
+
+.contact-box p{
+margin:15px 0;
+}
+
+footer{
+padding:30px;
+text-align:center;
+border-top:1px solid rgba(255,255,255,.08);
+opacity:.8;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:16px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+box-shadow:0 8px 25px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.nav-links{
+display:none;
+}
+
+.section-title{
+font-size:30px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">ElevateEcom</div>
+
+<div class="nav-links">
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#results">Results</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+
+<!-- Replace with your logo image if desired -->
+
+<h1>
+Scale Your <span>E-Commerce Business</span><br>
+With Expert Marketplace Management
+</h1>
+
+<p>
+We help brands grow on Amazon, Etsy, eBay and Alibaba through
+listing optimization, SEO, PPC advertising and strategic account management.
+</p>
+
+<div class="buttons">
+<a class="btn primary" href="https://wa.me/919473738379" target="_blank">
+Free Consultation
+</a>
+
+<a class="btn secondary" href="#services">
+Our Services
+</a>
+</div>
+
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Amazon Management</h3>
+<p>Product listings, PPC campaigns, SEO optimization and account growth.</p>
+</div>
+
+<div class="card">
+<h3>Etsy Growth</h3>
+<p>Store branding, keyword optimization and conversion improvements.</p>
+</div>
+
+<div class="card">
+<h3>eBay Management</h3>
+<p>Product listings, customer support and sales optimization strategies.</p>
+</div>
+
+<div class="card">
+<h3>Alibaba Sourcing</h3>
+<p>Supplier research, sourcing support and product procurement assistance.</p>
+</div>
+
+<div class="card">
+<h3>SEO Optimization</h3>
+<p>Marketplace keyword research and ranking improvement strategies.</p>
+</div>
+
+<div class="card">
+<h3>PPC Advertising</h3>
+<p>ROI-focused advertising campaigns designed to maximize sales.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+
+<h2 class="section-title">Why ElevateEcom?</h2>
+
+<div class="about">
+<p>
+At ElevateEcom, we focus on helping e-commerce brands scale faster through
+data-driven growth strategies, optimized listings and marketplace expertise.
+Our mission is simple: help businesses increase visibility, conversions and revenue.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="results">
+<div class="container">
+
+<h2 class="section-title">Growth Focused Approach</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h2>24/7</h2>
+<p>Support</p>
+</div>
+
+<div class="stat">
+<h2>4+</h2>
+<p>Platforms</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Commitment</p>
+</div>
+
+<div class="stat">
+<h2>ROI</h2>
+<p>Driven Strategy</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<h2 class="section-title">Let's Grow Your Store</h2>
+
+<div class="contact-box">
+
+<p><strong>Email:</strong><br>
+support.elevateecom@gmail.com</p>
+
+<p><strong>Instagram:</strong><br>
+@elevate_ecom</p>
+
+<div class="buttons">
+<a class="btn primary" href="https://wa.me/919473738379" target="_blank">
+Chat on WhatsApp
+</a>
+
+<a class="btn secondary"
+href="https://instagram.com/elevate_ecom"
+target="_blank">
+Visit Instagram
+</a>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 ElevateEcom. All Rights Reserved.
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919473738379" target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
